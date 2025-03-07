@@ -1,0 +1,55 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    .btn-outer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        padding: 5px 0px;
+        left: 0;
+        justify-content: center !important;
+    }
+    .watsappbtn,.call{
+        padding: 7px 15px ;
+        font-size:14px ;
+
+    }
+    .bannerContant h1{
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 35px;
+    }
+    .bannerContant br{
+        display: none;
+    }
+    .bannerContant p,
+    .bannerContant ul li{
+        font-size: 16px;
+    }
+    .bannerContantBtn{
+        flex-direction: column;
+    }
+    .bannerContantBtn button{
+        width: 100%;
+    }
+    .bannerForm{
+        padding: 20px;
+    }
+    .highligts-section h2{
+        font-size: 28px;
+    }
+    .freeBtn button{
+        padding: 10px 20px;
+        margin-left: 80px;
+    }
+    .box{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1170px;
+    }
+}

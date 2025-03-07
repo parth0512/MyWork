@@ -1,0 +1,185 @@
+/* xxl - extra extra large -≥1400px
+   xl - extra large - ≥1200px
+   lg - large screen - ≥992px
+   md - medium screen - ≥768px
+   sm - small device - ≥576px
+   xs - extra small -  <576px
+   */
+       /*toal 12 col */
+/*
+m-margin (all direction)
+my-top_buttom
+mx - left-right
+mt- margin top
+mb - margin buttom
+ms- margin start
+me - margin end
+mx- auto
+
+1rem = 16px
+m(1to6)
+m-0 = orem
+m-1 = 0.25rem(4 px)
+m-2 = 0.75rem(8 px)
+m-3 = 1 rem(16 px)
+m-4 = 1.5 rem(24 px)
+m-5 = 3 rem(48 px)
+*/
+
+/*padding
+p(0to5)
+p-all direction
+px-left_right
+py-top_buttom
+pt-top
+pb -buttom
+ps-left
+pe-right
+*/
+
+
+*{
+    font-family:"Inter",sans-serif;
+}
+.watsappbtn{
+    border: 1px solid #27ae60;
+    padding: 10px 18px;
+    color: #27ae60;
+    font-size: 16px;
+}
+.call{
+    padding: 10px 18px;
+    color: white;
+    background:linear-gradient(to right,#0ACEFE,#2699fb);
+}
+.watsappbtn i{
+    color: #27ae60;
+}
+.watsappbtn:hover{
+    border: 1px solid #27ae60;
+}
+.bannerContant h1{
+    font-size: 52px;
+    font-weight: bold;
+}
+.bannerContant h1 span{
+    color: #2699fb;
+    background: url("../images/border.png") no-repeat bottom;
+}
+.bannerContant p{
+    font-size: 22px;
+}
+.bannerContant ul{
+    list-style: none;
+}
+.bannerContant li{
+    font-size: 22px;
+}
+.bannerContant ul li i{
+    margin-right: 10px;
+    color:#2699FB;
+}
+.bannerContantBtn button{
+    width: 50%;
+    padding: 10px 0px;
+}
+.bannerContantBtn button:first-child{
+    border: 1px;
+    border-radius: 8px;
+    background:linear-gradient(to right,#0ACEFE,#2699FB );
+    color: white;
+}
+.bannerContantBtn button:last-child{
+    border: 1px;
+    border-radius: 8px;
+}
+.bannerContantBtn button:last-child:hover{
+    border: 3px solid #2699FB;
+}
+.bannerForm{
+    padding: 40px;
+    border-radius: 10px;
+}
+.bannerForm h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.bannerForm button{
+    background:linear-gradient(to right,#0ACEFE,#2699FB );
+    color: white;
+    width: 100%;
+    padding: 10px 18px;
+    height: 44px;
+    border: 1px;
+    border-radius: 8px;
+    gap: 8px;
+}
+.counterSection h2{
+    font-size:30px;
+    font-weight: bold;
+    color: #2699FB;
+}
+.highligts-section{
+    background-color: #F7FAFF;
+}
+.highligts-section h2{
+    color: #0A2134;
+    font-size: 36px;
+    font-weight: bold;
+}
+.highligts-section p{
+    font-size: 18px;
+}
+.highlightItems h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.highlightItems p{
+    font-size: 15px;
+}
+.highlightItems button{
+    margin-left: 200px;
+}
+.freeBtn button{
+    background:linear-gradient(to right,#0ACEFE,#2699FB );
+    color: white;
+    padding: 16px 48px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 450px;
+}
+.container h2{
+    font-weight: 700;
+    text-align: center;
+    font-size: 44px;
+    line-height: 53.25px;
+}
+.container p{
+    text-align: center;
+    margin-top: 27px;
+    font-size: 18px;
+    color: #0A2134;
+}
+.box{
+    width: 270px;
+    height: 278;
+}
+.box img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.box h3{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.box p{
+    margin-top: 0;
+    margin-left: 20px;
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+

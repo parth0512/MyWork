@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+
+  <body>
+    <div class="modal" id="enModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Enquire Now</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form action="" class="bannerForm p3">
+              <h3>Book Your Free Class Now!</h3>
+              <p>2 days of free demo classes without paying in advance!</p>
+
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input type="email" class="form-control" />
+              </div>
+              <div class="input-group mb-3">
+                <label for="exampleInputEmail1" class="form-label">Phone</label>
+                <div class="input-group">
+                  <span class="input-group-text">+91</span>
+                  <input type="text" class="form-control" placeholder="Phone" />
+                </div>
+              </div>
+              <div class="mt-3">
+                <button>Registration Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="bookModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Book Now</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form action="" class="bannerForm p3">
+              <h3>Book Your Free Class Now!</h3>
+              <p>2 days of free demo classes without paying in advance!</p>
+
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" />
+              </div>
+
+              <div class="input-group mb-3">
+                <label for="exampleInputEmail1" class="form-label">Phone</label>
+                <div class="input-group">
+                  <span class="input-group-text">+91</span>
+                  <input type="text" class="form-control" placeholder="Phone" />
+                </div>
+              </div>
+              <div class="mt-3">
+                <button>Registration Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header
+      class="container-fluid bg-white py-2 shadow-lg position-sticky top-0"
+    >
+      <div class="container">
+        <div class="row align-item-center">
+          <figure class="col-lg-6 col-12 text-lg-start text-center mb-0 pb-0">
+            <img src="images/logo.svg" alt="" />
+          </figure>
+          <div class="col-lg-6">
+            <div class="btn-outer d-flex gap-3 justify-content-end">
+              <button class="btn watsappbtn">
+                <i class="fa-brands fa-whatsapp"></i> Chat with us
+              </button>
+              <button class="btn call">
+                <i class="fa-solid fa-phone"></i>Call Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="container-fluid py-lg-5 py-sm-4 py-3">
+      <div class="container">
+        <div class="row justify-content-between gy-4 align-item-center">
+          <div class="col-lg-6">
+            <div class="bannerContant">
+              <h1>
+                Career Opportunities <br />in <span>Digital Marketing</span>
+              </h1>
+              <p>
+                Digital marketing course so good,you only pay-after-placement
+              </p>
+              <ul class="m-0 p-0">
+                <li class="mb-3">
+                  <i class="fa-solid fa-circle-check"></i>Specialization:
+                  Performance Marketing
+                </li>
+                <li class="mb-3">
+                  <i class="fa-solid fa-circle-check"></i>Min salary of Rs 4.5
+                  LPA
+                </li>
+                <li class="mb-3">
+                  <i class="fa-solid fa-circle-check"></i>50 seats only
+                </li>
+              </ul>
+              <div class="bannerContantBtn d-flex gap-3">
+                <button data-bs-toggle="modal" data-bs-target="#bookModal">
+                  Book 2 Days Demo
+                </button>
+                <button data-bs-toggle="modal" data-bs-target="#enModal">
+                  <img src="images/download.png" /> Download Carriculum
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <form action="" class="bannerForm shadow-lg">
+              <h3>Book Your Free Class Now!</h3>
+              <p>2 days of free demo classes without paying in advance!</p>
+
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input type="email" class="form-control" />
+              </div>
+              <div class="input-group mb-3">
+                <label for="exampleInputEmail1" class="form-label">Phone</label>
+                <div class="input-group">
+                  <span class="input-group-text">+91</span>
+                  <input type="text" class="form-control" placeholder="Phone" />
+                </div>
+              </div>
+              <div class="mt-3">
+                <button>Registration Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="container shadow-lg mt-5 counterSection">
+        <div class="row row-cols-lg-5 row-cols-1 p-4">
+          <div class="col">
+            <h2>1000+</h2>
+            <p>Students Trained</p>
+          </div>
+          <div class="col">
+            <h2>₹4.5 LPA</h2>
+            <p>Students Trained</p>
+          </div>
+          <div class="col">
+            <h2>320+</h2>
+            <p>Recruiting Partners</p>
+          </div>
+          <div class="col">
+            <h2>10:00 AM</h2>
+            <p>Program Timings</p>
+          </div>
+          <div class="col">
+            <h2>12th May</h2>
+            <p>Next Batch Starts</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid highligts-section py-5">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-12">
+            <h2>Key Highlights of the Course</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare
+              pharetra leo vestibulum at orci.
+            </p>
+          </div>
+        </div>
+        <div class="row gy-3">
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlightItems"
+            >
+              <img src="images/h1.png" />
+              <div>
+                <h4>Assignments & <br />Modules tests</h4>
+                <p>Test your knowledge</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlightItems"
+            >
+              <img src="images/star.png" />
+              <div>
+                <h4>Industry recognized<br />Certificate</h4>
+                <p>stand out to your professional</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlightItems"
+            >
+              <img src="images/cam.png" />
+              <div>
+                <h4>Live Classes & <br />Record Lectures</h4>
+                <p>Best of both worlds of learning</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlightItems"
+            >
+              <img src="images/d2.png" />
+              <div>
+                <h4>
+                  Downloadable<br />
+                  Contents
+                </h4>
+                <p>With lifetime access</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlightItems"
+            >
+              <img src="images/notes.png" />
+              <div>
+                <h4>
+                  6 Industry Level
+
+                  <br />
+                  Projects
+                </h4>
+                <p>Get practical skills</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlightItems"
+            >
+              <img src="images/message.png" />
+              <div>
+                <h4>
+                  Live Doubt Clearing
+
+                  <br />
+                  Session
+                </h4>
+                <p>Gain a Clear understanding</p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4 freeBtn col-12">
+            <button>Book Free Class</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid py-5">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-12">
+            <h2>
+              Top career options in <br />
+              Digital Marketing
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut ornare
+              pharetra.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="box shadow-lg">
+              <img src="images/p.png" />
+              <h3>Content Marketer</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut
+                ornare pharetra leo vestibulum at orci.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="box shadow-lg">
+              <img src="images/p.png" />
+              <h3>Content Marketer</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut
+                ornare pharetra leo vestibulum at orci.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="box shadow-lg">
+              <img src="images/p.png" />
+              <h3>Content Marketer</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut
+                ornare pharetra leo vestibulum at orci.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="box shadow-lg">
+              <img src="images/p.png" />
+              <h3>Content Marketer</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut
+                ornare pharetra leo vestibulum at orci.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
